@@ -13,5 +13,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   new_pigeon_hash.each do |name, values|
-    values.each do |single_attribute, values
+    values.each do |single_attribute, array|
+      
     
