@@ -4,4 +4,5 @@ def nyc_pigeon_organizer(data)
     values.each do |value, array|
       array.each do |name|
         if new_pigeon_hash == nil 
+          new_pigeon_hash =
 end
