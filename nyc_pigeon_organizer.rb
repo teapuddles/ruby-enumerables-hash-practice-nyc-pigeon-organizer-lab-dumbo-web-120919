@@ -16,5 +16,5 @@ def nyc_pigeon_organizer(data)
     values.each do |single_attribute, array|
       data.each do |pigeon_attributes, values|
         values.each do |value, array|
-          if element 
+          array.each do 
     
