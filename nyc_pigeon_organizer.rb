@@ -5,3 +5,4 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if new_pigeon_hash[name] == nil 
           new_pigeon_hash[name] = []
+          new_pigeon_hash[]
