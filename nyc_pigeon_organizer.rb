@@ -10,4 +10,5 @@ def nyc_pigeon_organizer(data)
           new_pigeon_hash[pigeon_attributes][name] = []
         end
       end
+    end
 end
