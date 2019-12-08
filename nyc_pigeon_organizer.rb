@@ -19,4 +19,9 @@ def nyc_pigeon_organizer(data)
           array.each do |element|
             if element == name && single_attribute == pigeon_attributes
               new_pigeon_hash[name][single_attribute] << value.to_s
+            end
+          end
+        end
+      end
+    end
     
